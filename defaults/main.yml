@@ -115,7 +115,7 @@ cis_chrony_servers: |+
 
 # 2.2.2
 # Installation of X-Windows
-cis_xwindows_install: { package: "xorg-x11*", state: absent, exception: 123 }
+cis_xwindows_install: { package: "xorg-X11*", state: absent, exception: 123 }
 
 # 2.2.3
 # Installation of Avahi Daemon NOTE: Avahi service will not start without further configuration
